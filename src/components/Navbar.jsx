@@ -84,7 +84,7 @@ const Navbar = () => {
             width={300}
             height={300}
             alt="Logo Casa lalla"
-            className={`mt-2 w-24 lg:w-36 `}
+            className={`mt-2 w-28 lg:w-36 `}
           />
         </div>
         <div className="w-full lg:flex hidden justify-end items-center  text-white cursor-pointer">
