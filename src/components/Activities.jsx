@@ -121,7 +121,7 @@ const Activities = () => {
             <Accordion />
             <Link
               target="_blank"
-              href="https://casalallatakerkoust.com/custom-booking"
+              href="/custom-booking"
               className="text-[12px] mt-5 ml-0 2xl:ml-11 py-2 px-8 tracking-widest border border-secondary text-primary rounded-lg leading-[34px] hover:bg-secondary hover:text-white duration-200 transition-all ease-out font-light"
             >
               {t("activities.book_experience")}

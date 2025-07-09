@@ -174,18 +174,10 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="pb-3 border-b border-bg_navbar">
-                <Link
-                  href="https://casalallatakerkoust.com/custom-booking"
-                  target="_blank"
-                >
-                  Contact
-                </Link>
+                <Link href="/contact">Contact</Link>
               </li>
               <li className="pb-3 border-b border-bg_navbar">
-                <Link
-                  target="_blank"
-                  href="https://casalallatakerkoust.com/gallery.html"
-                >{`Gallery`}</Link>
+                <Link href="/gallery">{`Gallery`}</Link>
               </li>
             </ul>
           </div>

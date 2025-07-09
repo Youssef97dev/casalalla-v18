@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { CircleLoader } from "react-spinners";
 import Gallery from "./Gallery";
 import Footer from "@/components/Footer";
+import Buttons from "@/components/Buttons";
 
 const Loader = () => {
   const [isClient, setIsClient] = useState(false);
@@ -19,12 +20,9 @@ const Loader = () => {
         <div className="relative flex flex-col justify-center items-center gap-2 md:gap-0">
           <Gallery />
           <Footer />
-          {/*<div className="fixed bottom-5 left-0 w-full block lg:hidden z-10">
+          <div className="fixed bottom-5 left-0 w-full block lg:hidden z-10">
             <Buttons />
           </div>
-          <div className="fixed top-12 right-10 w-[20%] hidden lg:block z-10">
-            <Buttons />
-          </div>*/}
         </div>
       ) : (
         <div className="fixed inset-0 z-40 flex items-center justify-center">

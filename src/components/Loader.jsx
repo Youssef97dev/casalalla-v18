@@ -9,6 +9,7 @@ import Events from "./Events";
 import Activities from "./Activities";
 import Kitchen from "./Kitchen";
 import Footer from "./Footer";
+import Buttons from "./Buttons";
 
 const Loader = () => {
   const [isClient, setIsClient] = useState(false);
@@ -31,9 +32,9 @@ const Loader = () => {
           <Activities />
           <Kitchen />
           <Footer />
-          {/*<div className="fixed bottom-5 left-0 w-full block lg:hidden z-10">
+          <div className="fixed bottom-5 left-0 w-full block lg:hidden z-10">
             <Buttons />
-          </div>*/}
+          </div>
         </div>
       ) : (
         <div className="fixed inset-0 z-40 flex items-center justify-center bg-background">
